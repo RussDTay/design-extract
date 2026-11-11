@@ -1,0 +1,6 @@
+{
+  "name": "designlang-corporate",
+  "version": "13.4.0",
+  "description": "Extract a website's design language (tokens, Tailwind/CSS/Figma themes, DESIGN.md) under enterprise guardrails: pinned tool version, host allow-listing, no inline credentials, no third-party LLM calls, audit logging.",
+  "contextFileName": "GEMINI.md"
+}

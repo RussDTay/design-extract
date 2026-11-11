@@ -1,0 +1,10 @@
+description = "Extract a site's design language under corporate guardrails (pinned, host-checked, audited)."
+prompt = """
+Use the `extract-design-corporate` skill to extract the design language from the site below.
+Follow the skill's authorization check first, run designlang only through its wrapper script,
+and then summarize palette, typography, spacing, accessibility score and components.
+
+Request (URL and any extra flags): {{args}}
+
+If no URL was given, ask the user which URL to extract.
+"""
